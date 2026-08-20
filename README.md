@@ -139,9 +139,7 @@ REPORTS + PLOTS
 | **Compliance-Aware SDR Configuration Generator** | Regulatory-document RAG + validation        | Python · LangChain · ChromaDB · Mistral |
 | **SDR Driver Benchmark**                         | Abstraction-layer latency benchmarking      | Python · ADALM-PLUTO                    |
 | **Electricity Demand Forecasting**               | Demand prediction + generation adequacy     | Python · ML · Time Series               |
-| **SignalScore**                                  | Email reply likelihood + quality prediction | NLP · Embeddings · ML                   |
-| **ApplianceLens**                                | Energy disaggregation + unknown detection   | Deep Learning · CNN                     |
-| **Spam / Fraud Email Classifier**                | Spam + phishing detection                   | TF-IDF · ML · FastAPI                   |
+
 
 ---
 
@@ -192,57 +190,8 @@ SDR · ADALM-PLUTO · DSP · MATLAB
 
 ---
 
-## `05 / ENGINEERING MINDSET`
 
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│  DATA                                                        │
-│   ↓                                                          │
-│  MODEL                                                       │
-│   ↓                                                          │
-│  RETRIEVAL / INFERENCE                                      │
-│   ↓                                                          │
-│  VALIDATION                                                  │
-│   ↓                                                          │
-│  API                                                         │
-│   ↓                                                          │
-│  DEPLOYMENT                                                  │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
-
-> I want to understand AI systems end-to-end — not just train the model.
-
----
-
-## `06 / LEARNING PATH`
-
-```text
-PYTHON
-   ↓
-DATA + SQL
-   ↓
-MACHINE LEARNING
-   ↓
-DEEP LEARNING
-   ↓
-TRANSFORMERS
-   ↓
-GENERATIVE AI
-   ↓
-RAG SYSTEMS
-   ↓
-AGENTIC AI
-   ↓
-PRODUCTION AI
-```
-
-Currently focused on turning ML knowledge into **real AI engineering systems**.
-
----
-
-## `07 / TELEMETRY`
+## `05 / TELEMETRY`
 
 <div align="center">
 
@@ -262,7 +211,7 @@ Currently focused on turning ML knowledge into **real AI engineering systems**.
 
 ---
 
-## `08 / CONNECT`
+## `06 / CONNECT`
 
 ```text
 github
