@@ -379,7 +379,12 @@ End-to-end workflows covering preprocessing, feature engineering, modeling, eval
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=devcodes007&hide_border=true&background=00000000&ring=38bdf8&fire=22d3ee&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b" height="180">
 
+<br><br>
+
+<img src="https://raw.githubusercontent.com/devcodes007/devcodes007/output/github-contribution-grid-snake-dark.svg" width="100%">
+
 </div>
+
 
 ---
 
