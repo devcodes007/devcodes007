@@ -44,60 +44,42 @@ I don't stop at a trained model. I design the system around it — retrieval, va
 </div>
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-
-**Generative AI & RAG**  
-Document intelligence with embeddings, vector search, LLM generation, and deterministic checks so outputs stay grounded.
-
-`LangChain` `ChromaDB` `Hugging Face` `Mistral` `Ollama`
-
-    </td>
-    <td width="50%" valign="top">
-
-**Machine Learning Pipelines**  
-End-to-end workflows: preprocessing, features, modeling, evaluation, and serving.
-
-`Python` `Scikit-learn` `LightGBM` `FastAPI`
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
-**Deep Learning & Signals**  
-Neural models for time series, energy systems, and sensor-style data — including open-set and peak-event problems.
-
-`PyTorch` `CNN` `Time Series`
-
-    </td>
-    <td width="50%" valign="top">
-
-**NLP & Decision Models**  
-Semantic representations, reply-quality scoring, and classification systems for noisy real-world text.
-
-`Embeddings` `TF-IDF` `SVM`
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
-**Agentic & Production AI**  
-Moving from single-shot generation to tools, loops, and systems that can act — then get validated.
-
-`LLMs` `Agents` `Validation`
-
-    </td>
-    <td width="50%" valign="top">
-
-**Systems & Hardware-adjacent**  
-DSP, SDR abstractions, and measurement work where latency and correctness both matter.
-
-`SDR` `ADALM-PLUTO` `MATLAB` `DSP`
-
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+<strong>Generative AI & RAG</strong><br>
+Document intelligence with embeddings, vector search, LLM generation, and deterministic checks so outputs stay grounded.<br>
+<code>LangChain</code> · <code>ChromaDB</code> · <code>Hugging Face</code> · <code>Mistral</code> · <code>Ollama</code>
+</td>
+<td width="50%" valign="top">
+<strong>Machine Learning Pipelines</strong><br>
+End-to-end workflows: preprocessing, features, modeling, evaluation, and serving.<br>
+<code>Python</code> · <code>Scikit-learn</code> · <code>LightGBM</code> · <code>FastAPI</code>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<strong>Deep Learning & Signals</strong><br>
+Neural models for time series, energy systems, and sensor-style data — including open-set and peak-event problems.<br>
+<code>PyTorch</code> · <code>CNN</code> · <code>Time Series</code>
+</td>
+<td width="50%" valign="top">
+<strong>NLP & Decision Models</strong><br>
+Semantic representations, reply-quality scoring, and classification systems for noisy real-world text.<br>
+<code>Embeddings</code> · <code>TF-IDF</code> · <code>SVM</code>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<strong>Agentic & Production AI</strong><br>
+Moving from single-shot generation to tools, loops, and systems that can act — then get validated.<br>
+<code>LLMs</code> · <code>Agents</code> · <code>Validation</code>
+</td>
+<td width="50%" valign="top">
+<strong>Systems & Hardware-adjacent</strong><br>
+DSP, SDR abstractions, and measurement work where latency and correctness both matter.<br>
+<code>SDR</code> · <code>ADALM-PLUTO</code> · <code>MATLAB</code> · <code>DSP</code>
+</td>
+</tr>
 </table>
 
 ---
