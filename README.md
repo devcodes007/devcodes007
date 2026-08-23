@@ -1,365 +1,118 @@
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,40:0f172a,75:0e7490,100:22d3ee&height=280&section=header&text=DEVBRATH%20SINGH%20GAUTAM&fontSize=44&fontColor=F8FAFC&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%20%E2%80%A2%20%20Generative%20AI%20%20%E2%80%A2%20%20RAG%20%20%E2%80%A2%20%20Production%20Systems&descAlignY=58&descSize=16&animation=fadeIn" width="100%" alt="header"/>
+</div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:0f172a,70:0c4a6e,100:06b6d4&height=220&section=header&text=DEVBRATH%20SINGH%20GAUTAM&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=AI%20%2F%20ML%20ENGINEER%20%E2%80%A2%20GENAI%20%E2%80%A2%20RAG%20%E2%80%A2%20LLMs&descAlignY=55&descSize=17&animation=fadeIn">
+<div align="center">
 
-<br>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=22D3EE&center=true&vCenter=true&width=720&lines=Building+intelligent+systems;Models+%E2%86%92+retrieval+%E2%86%92+validation+%E2%86%92+production;Machine+Learning+%2B+Generative+AI;RAG+%E2%80%A2+LLMs+%E2%80%A2+Agentic+AI)](https://github.com/devcodes007)
 
-### `● SYSTEM ONLINE`
+</div>
 
-**Building intelligent systems from models → production**
-
-<br>
+<div align="center">
 
 <a href="https://github.com/devcodes007">
-<img src="https://img.shields.io/badge/GITHUB-devcodes007-0f172a?style=for-the-badge&logo=github&logoColor=67e8f9">
+  <img src="https://img.shields.io/badge/GitHub-devcodes007-020617?style=for-the-badge&logo=github&logoColor=67e8f9" alt="GitHub"/>
 </a>
-&nbsp;
 <a href="https://www.linkedin.com/in/devbrath-singh-gautam-50951029/">
-<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0f172a?style=for-the-badge&logo=linkedin&logoColor=38bdf8">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-020617?style=for-the-badge&logo=linkedin&logoColor=38bdf8" alt="LinkedIn"/>
 </a>
-&nbsp;
 <a href="mailto:devgautam030@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-CONTACT-0f172a?style=for-the-badge&logo=gmail&logoColor=22d3ee">
+  <img src="https://img.shields.io/badge/Email-Contact-020617?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email"/>
 </a>
+<img src="https://komarev.com/ghpvc/?username=devcodes007&style=for-the-badge&color=0e7490&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 
-<br>
+<br/>
+
+```text
+role        →  AI / ML Engineer
+education   →  B.Tech Electronics & IoT · NSUT
+location    →  Delhi, India
+status      →  building production AI
+focus       →  models that survive contact with the real world
+```
+
+I don't stop at a trained model. I design the system around it — retrieval, validation, APIs, and deployment — so intelligence actually ships.
 
 ---
 
 <div align="center">
 
-### `01 / SYSTEM PROFILE`
+## what I build
 
 </div>
 
 <table>
-<tr>
-<td width="50%">
+  <tr>
+    <td width="50%" valign="top">
 
-```text id="n3q0bq"
-┌─────────────────────────────┐
-│  DEVBRATH@AI-SYSTEM         │
-│  ─────────────────────────  │
-│                             │
-│  role                       │
-│  → AI/ML Engineer           │
-│                             │
-│  education                  │
-│  → B.Tech Electronics & IoT │
-│  → NSUT                     │
-│                             │
-│  location                   │
-│  → Delhi, India             │
-│                             │
-│  status                     │
-│  → BUILDING                 │
-│                             │
-└─────────────────────────────┘
-```
+**Generative AI & RAG**  
+Document intelligence with embeddings, vector search, LLM generation, and deterministic checks so outputs stay grounded.
 
-</td>
+`LangChain` `ChromaDB` `Hugging Face` `Mistral` `Ollama`
 
-<td width="50%">
+    </td>
+    <td width="50%" valign="top">
 
-### `CURRENT FOCUS`
+**Machine Learning Pipelines**  
+End-to-end workflows: preprocessing, features, modeling, evaluation, and serving.
 
-🔹 Machine Learning
-🔹 Deep Learning
-🔹 Generative AI
-🔹 RAG Systems
-🔹 Transformers
-🔹 LLM Applications
-🔹 Agentic AI
-🔹 Production AI
+`Python` `Scikit-learn` `LightGBM` `FastAPI`
 
-<br>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
 
-`SYSTEM STATUS`
-
-```text id="9k7s3m"
-ML              ██████████  ONLINE
-DL              █████████░  ONLINE
-GENAI           █████████░  ACTIVE
-RAG             █████████░  ACTIVE
-AGENTS          ██████░░░░  BUILDING
-```
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-## `02 / PRODUCTION SYSTEMS`
-
-### `⚡ COMPLIANCE-AWARE SDR CONFIGURATION GENERATOR`
-
-**RAG + LLM + deterministic validation**
-
-</div>
-
-A retrieval-augmented system that transforms regulatory documentation into SDR initialization configurations and verifies the generated output against deterministic compliance constraints.
-
-<br>
-
-<div align="center">
-
-```text id="rj1hpx"
-┌─────────────┐
-│ REGULATORY  │
-│    PDFs     │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│  PARSING &  │
-│  CHUNKING   │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│  EMBEDDINGS │
-│  + CHROMADB │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│   MISTRAL   │
-│   / OLLAMA  │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│ CONFIG GEN   │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│ DETERMINISTIC│
-│  VALIDATOR   │
-└──────┬──────┘
-       │
-       ▼
-    ✓ VERIFIED
-```
-
-<br>
-
-`Python` · `LangChain` · `ChromaDB` · `Hugging Face` · `Mistral` · `Ollama`
-
----
-
-<div align="center">
-
-### `📡 SDR DRIVER ABSTRACTION BENCHMARK`
-
-**Measuring abstraction-layer latency across SDR systems**
-
-</div>
-
-```text id="8r4jgv"
-BenchmarkEngine
-       │
-       ├── WInnF API
-       │
-       ├── MockPluto
-       │
-       └── PlutoSDR
-              │
-              ▼
-       10,000+ Experiments
-              │
-              ▼
-         CSV Results
-              │
-              ▼
-        Analysis Engine
-              │
-              ▼
-        Reports + Plots
-```
-
-`Python` · `ADALM-PLUTO` · `libiio` · `Benchmarking`
-
----
-
-<div align="center">
-
-## `03 / SELECTED SYSTEMS`
-
-</div>
-
-<table>
-<tr>
-<td width="33%">
-
-### ⚡ SignalScore
-
-Predicting email reply likelihood and evaluating response quality using semantic representations and engineered features.
-
-`NLP` `Embeddings` `ML`
-
-</td>
-
-<td width="33%">
-
-### ⚡ ApplianceLens
-
-Deep-learning energy disaggregation with open-set detection for unknown appliances.
+**Deep Learning & Signals**  
+Neural models for time series, energy systems, and sensor-style data — including open-set and peak-event problems.
 
 `PyTorch` `CNN` `Time Series`
 
-</td>
+    </td>
+    <td width="50%" valign="top">
 
-<td width="33%">
+**NLP & Decision Models**  
+Semantic representations, reply-quality scoring, and classification systems for noisy real-world text.
 
-### ⚡ Demand Forecasting
+`Embeddings` `TF-IDF` `SVM`
 
-Forecasting electricity demand while identifying peak-demand events and generation-adequacy risk.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
 
-`ML` `Forecasting` `Time Series`
+**Agentic & Production AI**  
+Moving from single-shot generation to tools, loops, and systems that can act — then get validated.
 
-</td>
-</tr>
+`LLMs` `Agents` `Validation`
 
-<tr>
-<td width="33%">
+    </td>
+    <td width="50%" valign="top">
 
-### 🛡 Spam / Fraud Classifier
+**Systems & Hardware-adjacent**  
+DSP, SDR abstractions, and measurement work where latency and correctness both matter.
 
-Machine-learning system for detecting spam and phishing-style emails.
+`SDR` `ADALM-PLUTO` `MATLAB` `DSP`
 
-`TF-IDF` `SVM` `FastAPI`
-
-</td>
-
-<td width="33%">
-
-### 🧠 RAG Systems
-
-Document intelligence systems using retrieval + LLM generation + validation.
-
-`RAG` `LLMs` `Vector DB`
-
-</td>
-
-<td width="33%">
-
-### 📊 ML Pipelines
-
-End-to-end workflows covering preprocessing, feature engineering, modeling, evaluation and deployment.
-
-`Python` `Scikit-learn`
-
-</td>
-</tr>
+    </td>
+  </tr>
 </table>
 
 ---
 
 <div align="center">
 
-## `04 / TECHNOLOGY MATRIX`
+## how I think
 
-### Languages
-
-<img src="https://skillicons.dev/icons?i=python,java,js,mysql&theme=dark">
-
-<br><br>
-
-### Machine Learning & Data
-
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark">
-
-<br><br>
-
-`Pandas` · `NumPy` · `LightGBM` · `Matplotlib` · `Seaborn` · `Tableau`
-
-<br><br>
-
-### Generative AI
-
-`🤗 Hugging Face` · `Transformers` · `LangChain` · `RAG` · `ChromaDB` · `Ollama` · `Mistral`
-
-<br><br>
-
-### Engineering
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,fastapi,vscode&theme=dark">
-
-<br><br>
-
-### Systems
-
-`SDR` · `ADALM-PLUTO` · `DSP` · `MATLAB`
-
-</div>
-
----
-
-<div align="center">
-
-## `05 / ENGINEERING PHILOSOPHY`
-
-</div>
-
-```text id="i2g8uc"
-       DATA
-        │
-        ▼
-      MODEL
-        │
-        ▼
- RETRIEVAL / INFERENCE
-        │
-        ▼
-    VALIDATION
-        │
-        ▼
-       API
-        │
-        ▼
-   DEPLOYMENT
-        │
-        ▼
-  INTELLIGENT SYSTEM
+```text
+   DATA  →  MODEL  →  RETRIEVAL / INFERENCE  →  VALIDATION  →  API  →  DEPLOY
+                                      │
+                                      └──  intelligent system
 ```
 
-> **Don't just train the model. Build the system around it.**
-
----
-
-<div align="center">
-
-## `06 / LEARNING TRAJECTORY`
-
-```text id="zq6w6j"
-     MACHINE LEARNING
-             │
-             ▼
-       DEEP LEARNING
-             │
-             ▼
-        TRANSFORMERS
-             │
-             ▼
-       GENERATIVE AI
-             │
-             ▼
-        RAG SYSTEMS
-             │
-             ▼
-        AGENTIC AI
-             │
-             ▼
-       PRODUCTION AI
-```
-
-### `FROM MODELS → TO INTELLIGENT SYSTEMS`
+**Don't just train the model. Build the system around it.**
 
 </div>
 
@@ -367,61 +120,136 @@ End-to-end workflows covering preprocessing, feature engineering, modeling, eval
 
 <div align="center">
 
-## `07 / GITHUB TELEMETRY`
+## stack I live in
 
-<br>
+<br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=devcodes007&show_icons=true&hide_border=true&bg_color=00000000&title_color=38bdf8&icon_color=22d3ee&text_color=94a3b8&rank_icon=github" height="180">
+**languages**
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devcodes007&layout=compact&hide_border=true&bg_color=00000000&title_color=38bdf8&text_color=94a3b8" height="180">
+<img src="https://skillicons.dev/icons?i=python,java,js,mysql&theme=dark" alt="languages"/>
 
-<br><br>
+<br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=devcodes007&hide_border=true&background=00000000&ring=38bdf8&fire=22d3ee&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b" height="180">
+**machine learning & data**
 
-<br><br>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="ml"/>
 
-<img src="https://raw.githubusercontent.com/devcodes007/devcodes007/output/github-contribution-grid-snake-dark.svg" width="100%">
+<br/>
+
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+<img src="https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge" alt="LightGBM"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib"/>
+<img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge" alt="Seaborn"/>
+<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau"/>
+
+<br/><br/>
+
+**generative AI**
+
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000" alt="Hugging Face"/>
+<img src="https://img.shields.io/badge/Transformers-FF6F00?style=for-the-badge" alt="Transformers"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
+<img src="https://img.shields.io/badge/RAG-22D3EE?style=for-the-badge&logoColor=020617" alt="RAG"/>
+<img src="https://img.shields.io/badge/ChromaDB-FF5A5F?style=for-the-badge" alt="ChromaDB"/>
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"/>
+<img src="https://img.shields.io/badge/Mistral-FA520F?style=for-the-badge" alt="Mistral"/>
+
+<br/><br/>
+
+**engineering**
+
+<img src="https://skillicons.dev/icons?i=git,github,docker,fastapi,vscode&theme=dark" alt="engineering"/>
+
+<br/><br/>
+
+**systems**
+
+<img src="https://img.shields.io/badge/SDR-0E7490?style=for-the-badge" alt="SDR"/>
+<img src="https://img.shields.io/badge/ADALM--PLUTO-111827?style=for-the-badge" alt="ADALM-PLUTO"/>
+<img src="https://img.shields.io/badge/DSP-164E63?style=for-the-badge" alt="DSP"/>
+<img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB"/>
 
 </div>
-
 
 ---
 
 <div align="center">
 
-## `08 / CONNECT`
+## currently
 
-### **Let's build something intelligent.**
+| domain | state |
+| :---: | :---: |
+| Machine Learning | `ONLINE` |
+| Deep Learning | `ONLINE` |
+| Generative AI | `ACTIVE` |
+| RAG Systems | `ACTIVE` |
+| Agentic AI | `BUILDING` |
+| Production AI | `SHIPPING` |
 
-<br>
+`machine learning → deep learning → transformers → generative AI → RAG → agents → production`
+
+</div>
+
+---
+
+<div align="center">
+
+## contribution snake
+
+<p>
+  <em>a little snake eating my commit graph — regenerates every night</em>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devcodes007/devcodes007/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devcodes007/devcodes007/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/devcodes007/devcodes007/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
+
+</div>
+
+---
+
+<div align="center">
+
+## telemetry
+
+<img src="https://github-readme-stats.vercel.app/api?username=devcodes007&show_icons=true&hide_border=true&bg_color=020617&title_color=22d3ee&icon_color=67e8f9&text_color=94a3b8&rank_icon=github" height="165" alt="stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devcodes007&layout=compact&hide_border=true&bg_color=020617&title_color=22d3ee&text_color=94a3b8" height="165" alt="languages"/>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=devcodes007&hide_border=true&background=020617&ring=22d3ee&fire=67e8f9&currStreakLabel=22d3ee&sideLabels=94a3b8&dates=64748b&stroke=0e7490" height="165" alt="streak"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=devcodes007&bg_color=020617&color=67e8f9&line=22d3ee&point=5eead4&area=true&hide_border=true&area_color=0e7490" alt="activity graph" width="100%"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## let's build something intelligent
 
 <a href="https://github.com/devcodes007">
-<img src="https://img.shields.io/badge/GITHUB-DEV_CODES_007-020617?style=for-the-badge&logo=github&logoColor=38bdf8">
+  <img src="https://img.shields.io/badge/GitHub-devcodes007-020617?style=for-the-badge&logo=github&logoColor=67e8f9" alt="GitHub"/>
 </a>
-
 <a href="https://www.linkedin.com/in/devbrath-singh-gautam-50951029/">
-<img src="https://img.shields.io/badge/LINKEDIN-DEVBRATH-020617?style=for-the-badge&logo=linkedin&logoColor=38bdf8">
+  <img src="https://img.shields.io/badge/LinkedIn-Devbrath-020617?style=for-the-badge&logo=linkedin&logoColor=38bdf8" alt="LinkedIn"/>
 </a>
-
 <a href="mailto:devgautam030@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-CONTACT-020617?style=for-the-badge&logo=gmail&logoColor=22d3ee">
+  <img src="https://img.shields.io/badge/Email-devgautam030%40gmail.com-020617?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email"/>
 </a>
 
-<br><br>
+<br/><br/>
 
-`devcodes007` · `AI / ML` · `GENAI` · `RAG` · `LLMs`
+`AI / ML` · `GENAI` · `RAG` · `LLMs` · `PRODUCTION`
 
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,45:0e7490,100:020617&height=140&section=footer" width="100%" alt="footer"/>
 
-<br>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:0c4a6e,100:020617&height=120&section=footer">
-
-### `● SYSTEM STATUS: BUILDING`
-
-`{ machine_learning: ON · curiosity: HIGH · systems: BUILDING }`
+**`{ curiosity: HIGH · systems: BUILDING · coffee: REQUIRED }`**
 
 </div>
