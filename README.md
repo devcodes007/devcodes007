@@ -197,16 +197,16 @@ DSP, SDR abstractions, and measurement work where latency and correctness both m
 
 ## telemetry
 
-<img src="https://github-readme-stats.vercel.app/api?username=devcodes007&show_icons=true&hide_border=true&bg_color=020617&title_color=22d3ee&icon_color=67e8f9&text_color=94a3b8&rank_icon=github" height="165" alt="stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devcodes007&layout=compact&hide_border=true&bg_color=020617&title_color=22d3ee&text_color=94a3b8" height="165" alt="languages"/>
+<img src="https://github-readme-stats.vercel.app/api?username=devcodes007&show_icons=true&hide_border=true&bg_color=0d1117&title_color=3fb950&icon_color=39d353&text_color=f0f6fc&rank_icon=github" height="165" alt="stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devcodes007&layout=compact&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=f0f6fc" height="165" alt="languages"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=devcodes007&hide_border=true&background=020617&ring=22d3ee&fire=67e8f9&currStreakLabel=22d3ee&sideLabels=94a3b8&dates=64748b&stroke=0e7490" height="165" alt="streak"/>
+<img src="https://streak-stats.demolab.com/?user=devcodes007&theme=github-dark-green&hide_border=true&background=0D1117&ring=39D353&fire=3FB950&currStreakNum=39D353&sideNums=F0F6FC&currStreakLabel=3FB950&sideLabels=C9D1D9&dates=8B949E&stroke=238636" height="165" alt="streak"/>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=devcodes007&bg_color=020617&color=67e8f9&line=22d3ee&point=5eead4&area=true&hide_border=true&area_color=0e7490" alt="activity graph" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=devcodes007&bg_color=0d1117&color=3fb950&line=39d353&point=56d364&area=true&hide_border=true&area_color=238636" alt="activity graph" width="100%"/>
 
 </div>
 
