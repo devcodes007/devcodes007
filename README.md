@@ -1,210 +1,86 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,40:0f172a,75:0e7490,100:22d3ee&height=280&section=header&text=DEVBRATH%20SINGH%20GAUTAM&fontSize=44&fontColor=F8FAFC&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%20%E2%80%A2%20%20Generative%20AI%20%20%E2%80%A2%20%20RAG%20%20%E2%80%A2%20%20Production%20Systems&descAlignY=58&descSize=16&animation=fadeIn" width="100%" alt="header"/>
-</div>
 
-<div align="center">
+# Devbrath Singh Gautam
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=22D3EE&center=true&vCenter=true&width=720&lines=Building+intelligent+systems;Models+%E2%86%92+retrieval+%E2%86%92+validation+%E2%86%92+production;Machine+Learning+%2B+Generative+AI;RAG+%E2%80%A2+LLMs+%E2%80%A2+Agentic+AI)](https://github.com/devcodes007)
+**AI / ML intern** · RAG · FastAPI · TypeScript
 
-</div>
+I build models that have to survive real data: retrieval that can fail, forecasts that can miss, and APIs that make those failures visible instead of hiding them.
 
-<div align="center">
-
-<a href="https://github.com/devcodes007">
-  <img src="https://img.shields.io/badge/GitHub-devcodes007-020617?style=for-the-badge&logo=github&logoColor=67e8f9" alt="GitHub"/>
-</a>
-<a href="https://www.linkedin.com/in/devbrath-singh-gautam-50951029/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-020617?style=for-the-badge&logo=linkedin&logoColor=38bdf8" alt="LinkedIn"/>
-</a>
-<a href="mailto:devgautam030@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-020617?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email"/>
-</a>
-<img src="https://komarev.com/ghpvc/?username=devcodes007&style=for-the-badge&color=0e7490&label=PROFILE+VIEWS" alt="Profile views"/>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Devbrath_Singh_Gautam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devbrath-singh-gautam-50951029a/)
+[![Email](https://img.shields.io/badge/Email-devgautam030%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:devgautam030@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-devcodes007-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/devcodes007)
 
 </div>
-
-<br/>
-
-```text
-role        →  AI / ML Engineer
-education   →  B.Tech Electronics & IoT · NSUT
-location    →  Delhi, India
-status      →  building production AI
-focus       →  models that survive contact with the real world
-```
-
-I don't stop at a trained model. I design the system around it — retrieval, validation, APIs, and deployment — so intelligence actually ships.
 
 ---
 
-<div align="center">
+## Featured projects
 
-## what I build
-
-</div>
+The only two I want you to open.
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<strong>Generative AI & RAG</strong><br>
-Document intelligence with embeddings, vector search, LLM generation, and deterministic checks so outputs stay grounded.<br>
-<code>LangChain</code> · <code>ChromaDB</code> · <code>Hugging Face</code> · <code>Mistral</code> · <code>Ollama</code>
+
+### [DocuVerify](https://github.com/devcodes007/Docuverify_2)
+**Agentic RAG that refuses to guess**
+
+[Live demo](https://docuverify-six.vercel.app) · [Repository](https://github.com/devcodes007/Docuverify_2)
+
+An agent routes lookup, comparison, and multi-hop questions, retrieves with hybrid BM25 + dense search, and retries when evidence is thin. A fine-tuned **DeBERTa-v3-small** classifier then labels the answer `SUPPORTED` / `CONTRADICTED` / `UNSUPPORTED` — a second model, not another LLM prompt. Unsupported answers are refused.
+
+FastAPI backend for PDF ingest, query, and streaming traces. TypeScript frontend on Vercel.
+
+`RAG` `FastAPI` `TypeScript` `ChromaDB` `DeBERTa` `BM25`
+
 </td>
 <td width="50%" valign="top">
-<strong>Machine Learning Pipelines</strong><br>
-End-to-end workflows: preprocessing, features, modeling, evaluation, and serving.<br>
-<code>Python</code> · <code>Scikit-learn</code> · <code>LightGBM</code> · <code>FastAPI</code>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<strong>Deep Learning & Signals</strong><br>
-Neural models for time series, energy systems, and sensor-style data — including open-set and peak-event problems.<br>
-<code>PyTorch</code> · <code>CNN</code> · <code>Time Series</code>
-</td>
-<td width="50%" valign="top">
-<strong>NLP & Decision Models</strong><br>
-Semantic representations, reply-quality scoring, and classification systems for noisy real-world text.<br>
-<code>Embeddings</code> · <code>TF-IDF</code> · <code>SVM</code>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<strong>Agentic & Production AI</strong><br>
-Moving from single-shot generation to tools, loops, and systems that can act — then get validated.<br>
-<code>LLMs</code> · <code>Agents</code> · <code>Validation</code>
-</td>
-<td width="50%" valign="top">
-<strong>Systems & Hardware-adjacent</strong><br>
-DSP, SDR abstractions, and measurement work where latency and correctness both matter.<br>
-<code>SDR</code> · <code>ADALM-PLUTO</code> · <code>MATLAB</code> · <code>DSP</code>
+
+### [State Demand Forecasting](https://github.com/devcodes007/State-Electricity-Demand-Forecasting-)
+**P10 / P50 / P90 electricity demand**
+
+[Live demo](https://frontend-livid-seven-76.vercel.app) · [Repository](https://github.com/devcodes007/State-Electricity-Demand-Forecasting-)
+
+LightGBM quantile regression for Delhi, Gujarat, and Karnataka on 10k+ daily rows. Leakage-safe lags, chronological splits, and validation-only model selection (`α = 0.25`, P50 pinball **3.48**, **51.8%** coverage). Gujarat’s regime shift and ~12% quantile crossing are reported in the dashboard, not patched over.
+
+FastAPI backend for forecast, history, and metrics. TypeScript / React client.
+
+`Python` `LightGBM` `FastAPI` `TypeScript` `React` `Pandas`
+
 </td>
 </tr>
 </table>
 
 ---
 
-<div align="center">
-
-## how I think
+## How I work
 
 ```text
-   DATA  →  MODEL  →  RETRIEVAL / INFERENCE  →  VALIDATION  →  API  →  DEPLOY
-                                      │
-                                      └──  intelligent system
+data → features → model → retrieval / inference → validation → REST API → UI
 ```
 
-**Don't just train the model. Build the system around it.**
+I care about the boring parts that make ML honest: document-level splits, causal lags, coverage vs pinball, and an API a recruiter can actually click.
 
-</div>
+**Right now:** AI/ML intern at DRDO — Scientific Analysis Group (SAG).  
+**School:** B.Tech, Electronics and Communication (IoT) · NSUT · 2027.
+
+---
+
+## Stack
+
+| | |
+| :--- | :--- |
+| **Languages** | Python, TypeScript, Java, SQL |
+| **AI / ML** | RAG, FastAPI, REST APIs, NLP, feature engineering, model evaluation |
+| **Libraries** | PyTorch, Hugging Face, LightGBM, Scikit-learn, NumPy, Pandas |
+| **Build** | Git, Linux, Docker, AWS, Azure |
 
 ---
 
 <div align="center">
 
-## stack I live in
+Open the two demos first. Then the repos.
 
-<br/>
-
-**languages**
-
-<img src="https://skillicons.dev/icons?i=python,java,js,mysql&theme=dark" alt="languages"/>
-
-<br/><br/>
-
-**machine learning & data**
-
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="ml"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-<img src="https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge" alt="LightGBM"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib"/>
-<img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge" alt="Seaborn"/>
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau"/>
-
-<br/><br/>
-
-**generative AI**
-
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000" alt="Hugging Face"/>
-<img src="https://img.shields.io/badge/Transformers-FF6F00?style=for-the-badge" alt="Transformers"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
-<img src="https://img.shields.io/badge/RAG-22D3EE?style=for-the-badge&logoColor=020617" alt="RAG"/>
-<img src="https://img.shields.io/badge/ChromaDB-FF5A5F?style=for-the-badge" alt="ChromaDB"/>
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"/>
-<img src="https://img.shields.io/badge/Mistral-FA520F?style=for-the-badge" alt="Mistral"/>
-
-<br/><br/>
-
-**engineering**
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,fastapi,vscode&theme=dark" alt="engineering"/>
-
-<br/><br/>
-
-**systems**
-
-<img src="https://img.shields.io/badge/SDR-0E7490?style=for-the-badge" alt="SDR"/>
-<img src="https://img.shields.io/badge/ADALM--PLUTO-111827?style=for-the-badge" alt="ADALM-PLUTO"/>
-<img src="https://img.shields.io/badge/DSP-164E63?style=for-the-badge" alt="DSP"/>
-<img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB"/>
-
-</div>
-
----
-
-<div align="center">
-
-## currently
-
-| domain | state |
-| :---: | :---: |
-| Machine Learning | `ONLINE` |
-| Deep Learning | `ONLINE` |
-| Generative AI | `ACTIVE` |
-| RAG Systems | `ACTIVE` |
-| Agentic AI | `BUILDING` |
-| Production AI | `SHIPPING` |
-
-`machine learning → deep learning → transformers → generative AI → RAG → agents → production`
-
-</div>
-
----
-
-<div align="center">
-
-## contribution snake
-
-<img alt="github contribution snake" src="https://raw.githubusercontent.com/devcodes007/devcodes007/output/github-snake-green.svg" width="100%">
-
-</div>
-
----
-
-<div align="center">
-
-## let's build something intelligent
-
-<a href="https://github.com/devcodes007">
-  <img src="https://img.shields.io/badge/GitHub-devcodes007-020617?style=for-the-badge&logo=github&logoColor=67e8f9" alt="GitHub"/>
-</a>
-<a href="https://www.linkedin.com/in/devbrath-singh-gautam-50951029/">
-  <img src="https://img.shields.io/badge/LinkedIn-Devbrath-020617?style=for-the-badge&logo=linkedin&logoColor=38bdf8" alt="LinkedIn"/>
-</a>
-<a href="mailto:devgautam030@gmail.com">
-  <img src="https://img.shields.io/badge/Email-devgautam030%40gmail.com-020617?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email"/>
-</a>
-
-<br/><br/>
-
-`AI / ML` · `GENAI` · `RAG` · `LLMs` · `PRODUCTION`
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,45:0e7490,100:020617&height=140&section=footer" width="100%" alt="footer"/>
-
-**`{ curiosity: HIGH · systems: BUILDING · coffee: REQUIRED }`**
+[DocuVerify live](https://docuverify-six.vercel.app) · [Forecasting live](https://frontend-livid-seven-76.vercel.app) · [LinkedIn](https://www.linkedin.com/in/devbrath-singh-gautam-50951029a/) · [devgautam030@gmail.com](mailto:devgautam030@gmail.com)
 
 </div>
