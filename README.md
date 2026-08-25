@@ -16,8 +16,6 @@ I build models that have to survive real data: retrieval that can fail, forecast
 
 ## Featured projects
 
-The only two I want you to open.
-
 <table>
 <tr>
 <td width="50%" valign="top">
