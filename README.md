@@ -78,35 +78,175 @@ FastAPI backend + TypeScript / React client.
 
 </div>
 
-I do not collect tutorials. I pick a failure I can measure, then force it through a full loop until a UI can show the miss.
+I do not collect tutorials. I pick a failure I can measure, then force it through every layer of the stack until a UI can show the miss.
 
 ```mermaid
-flowchart LR
-  A["1 · Find the break"] --> B["2 · Draw the pipeline"]
-  B --> C["3 · Smallest honest experiment"]
-  C --> D["4 · Metric that can prove me wrong"]
-  D --> E["5 · FastAPI + types"]
-  E --> F["6 · TypeScript UI"]
-  F --> A
+flowchart TB
+  subgraph L0["L0 · FAILURE SURFACE — what I hunt"]
+    F1["unsupported RAG claim"]
+    F2["leaky time-series feature"]
+    F3["Gujarat regime shift"]
+    F4["P10/P50/P90 crossing"]
+  end
 
-  style A fill:#0f172a,stroke:#22d3ee,color:#e2e8f0
-  style B fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
-  style C fill:#0f172a,stroke:#2dd4bf,color:#e2e8f0
-  style D fill:#0f172a,stroke:#34d399,color:#e2e8f0
-  style E fill:#0f172a,stroke:#a78bfa,color:#e2e8f0
-  style F fill:#0f172a,stroke:#f472b6,color:#e2e8f0
+  subgraph L1["L1 · PROBLEM FRAME — write the contract"]
+    P1["question type<br/>lookup / compare / multi-hop"]
+    P2["prediction type<br/>quantile, not a point"]
+    P3["forbidden cheats<br/>no future lags · no test shopping"]
+    P4["success = a metric that can fail"]
+  end
+
+  subgraph L2["L2 · DATA PLANE"]
+    D1["PDFs / markdown<br/>document_id forever"]
+    D2["daily demand · weather · holiday<br/>10k+ state-grouped rows"]
+    D3["chronological cuts<br/>train / val / test"]
+    D4["document-level splits<br/>never split the same doc"]
+  end
+
+  subgraph L3["L3 · REPRESENTATION"]
+    R1["structure-aware chunks<br/>heading path + metadata"]
+    R2["causal lags + rolling<br/>shift 1 by state"]
+    R3["EWMA residual<br/>alpha chosen on val only"]
+    R4["schemas<br/>question · evidence · forecast"]
+  end
+
+  subgraph L4["L4 · INDEX + MODEL"]
+    I1["BM25<br/>identifier tokenizer"]
+    I2["dense embed<br/>Chroma / MiniLM"]
+    I3["hybrid score<br/>minmax then mix"]
+    I4["LightGBM<br/>P10 · P50 · P90"]
+  end
+
+  subgraph L5["L5 · CONTROL PLANE — agents and selection"]
+    C1["query router"]
+    C2["evidence evaluator"]
+    C3["reformulate + retry ≤ 3"]
+    C4["alpha sweep 0 / 0.25 / 0.5 / 0.75 / 1"]
+    C5["pick on validation only"]
+  end
+
+  subgraph L6["L6 · GENERATION / INFERENCE"]
+    G1["evidence-only prompt<br/>citations required"]
+    G2["one-step quantile infer<br/>same features as train"]
+    G3["SSE agent trace<br/>classification → retrieve → verify"]
+  end
+
+  subgraph L7["L7 · SECOND OPINION — do not trust the first model"]
+    V1["DeBERTa-v3-small<br/>SUPPORTED / CONTRADICTED / UNSUPPORTED"]
+    V2["pinball + coverage"]
+    V3["crossing rate ~12%"]
+    V4["shift: train ~310 vs val ~373"]
+    V5["refuse if unsupported"]
+  end
+
+  subgraph L8["L8 · PLATFORM"]
+    A1["FastAPI REST"]
+    A2["Pydantic contracts"]
+    A3["ingest / query / predict / metrics"]
+    A4["errors over invented history"]
+  end
+
+  subgraph L9["L9 · EXPERIENCE"]
+    U1["TypeScript client"]
+    U2["live answer + citations"]
+    U3["groundedness chip"]
+    U4["P10-P90 band + shift panel"]
+  end
+
+  subgraph L10["L10 · FEEDBACK — the loop closes"]
+    X1["what the UI made obvious"]
+    X2["new failure becomes L0"]
+  end
+
+  F1 --> P1
+  F2 --> P3
+  F3 --> P2
+  F4 --> P4
+
+  P1 --> D1
+  P2 --> D2
+  P3 --> D3
+  P4 --> D4
+
+  D1 --> R1
+  D2 --> R2
+  D3 --> R3
+  D4 --> R4
+
+  R1 --> I1
+  R1 --> I2
+  I1 --> I3
+  I2 --> I3
+  R2 --> I4
+  R3 --> I4
+  R4 --> A2
+
+  I3 --> C1
+  C1 --> C2 --> C3
+  I4 --> C4 --> C5
+
+  C3 --> G1
+  C5 --> G2
+  G1 --> G3
+
+  G1 --> V1
+  G2 --> V2
+  V2 --> V3
+  V2 --> V4
+  V1 --> V5
+
+  V5 --> A1
+  V3 --> A3
+  V4 --> A3
+  A2 --> A1
+  A1 --> A3
+  A3 --> A4
+
+  A1 --> U1
+  G3 --> U2
+  V1 --> U3
+  V3 --> U4
+  U1 --> U2
+  U1 --> U3
+  U1 --> U4
+
+  U2 --> X1
+  U3 --> X1
+  U4 --> X1
+  X1 --> X2
+  X2 --> F1
+  X2 --> F2
+  X2 --> F3
+  X2 --> F4
+
+  style L0 fill:#1a0b10,stroke:#fb7185,color:#e2e8f0
+  style L1 fill:#0b1220,stroke:#22d3ee,color:#e2e8f0
+  style L2 fill:#052e2b,stroke:#2dd4bf,color:#e2e8f0
+  style L3 fill:#1e1b4b,stroke:#a78bfa,color:#e2e8f0
+  style L4 fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
+  style L5 fill:#172554,stroke:#60a5fa,color:#e2e8f0
+  style L6 fill:#3b0764,stroke:#e879f9,color:#e2e8f0
+  style L7 fill:#4a1c2a,stroke:#f472b6,color:#e2e8f0
+  style L8 fill:#052e16,stroke:#4ade80,color:#e2e8f0
+  style L9 fill:#083344,stroke:#67e8f9,color:#e2e8f0
+  style L10 fill:#020617,stroke:#fbbf24,color:#e2e8f0
 ```
 
-| step | what I actually do |
-| :--- | :--- |
-| **Find the break** | Hallucinated RAG answer. Leaky lag. Gujarat regime shift. Crossing quantiles. |
-| **Draw the pipeline** | Paper / docs until I can sketch boxes: data → model → check → API → UI. |
-| **Smallest honest experiment** | Document-level splits. Causal `shift(1)`. Validation-only `α`. Bounded retries. |
-| **Metric that can prove me wrong** | Groundedness label, pinball, coverage, crossing — not “it looked good.” |
-| **Serve it** | FastAPI schemas, REST, SSE traces, errors instead of invented history. |
-| **Show it** | TypeScript client so a human sees refuse / shift / crossing. |
+Eleven layers. Same loop as before — just the real machine behind it.
 
-`problem → experiment → eval → backend → UI → what still fails`
+| layer | job |
+| :--- | :--- |
+| **L0 failure** | Name the miss: hallucination, leak, shift, crossing. |
+| **L1 contract** | Question type, quantile type, cheats that are illegal. |
+| **L2 data** | Document IDs and chronological cuts stay glued to every row. |
+| **L3 representation** | Chunks + causal features + schemas. |
+| **L4 index / model** | BM25 + dense hybrid, or LightGBM P10/P50/P90. |
+| **L5 control** | Router, evidence retries, validation-only selection. |
+| **L6 inference** | Evidence-only generation or one-step quantiles + SSE. |
+| **L7 second opinion** | DeBERTa or pinball/coverage/crossing — then refuse. |
+| **L8 platform** | FastAPI, Pydantic, real error paths. |
+| **L9 UI** | TypeScript shows refuse / band / shift. |
+| **L10 feedback** | Whatever the UI made obvious becomes the next L0. |
 
 ---
 
